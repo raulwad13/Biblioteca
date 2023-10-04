@@ -1,0 +1,26 @@
+#mainContainer{
+    display: flex;
+    
+    
+}
+
+.book{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(148, 173, 241);
+    border-style: double;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    
+}
