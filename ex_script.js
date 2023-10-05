@@ -4,7 +4,7 @@ const books = [
     {
         "author": "Chinua Achebe",
         "country": "Nigeria",
-        "imageLink": "images/thingsFallApart.jpg",
+        "imageLink": "assets/bookOfJob.jpg",
         "language": "English",
         "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
         "pages": 209,
