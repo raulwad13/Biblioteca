@@ -4,6 +4,12 @@
     
 }
 
+.header {
+    padding-top: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .book{
     display: flex;
     flex-flow: wrap;
