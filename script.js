@@ -69,7 +69,7 @@ const books = [
           p1.appendChild(document.createTextNode(d.country))
   
           let img = document.createElement('img');
-          img.setAttribute("src","./assets/" + d.imageLink)
+          img.setAttribute("src","./" + d.imageLink)
           img.setAttribute("alt",d.title)
   
           let a = document.createElement('a');
@@ -93,7 +93,7 @@ const books = [
       for (const d of Data) {
           let templateStr = `<div class="book">
                                   <h1 class="tittle">${d.title}</h1>
-                                  <img src="${"./assets/" + d.imageLink}">
+                                  <img src="${"./" + d.imageLink}">
                                   <h2 class="author">${d.author}</h2>
                                   <p class="location">${d.country}</p>
                                   <a href="${d.link}">wiki</a>
